@@ -13,7 +13,7 @@ const Xlogin =()=>{
         setError("")
         setIssubmitted(true)
     }else{
-        // setIssubmitted(false)
+        setIssubmitted(false)
         setError("Invalid username or password");
     }
    }
@@ -22,7 +22,7 @@ const Xlogin =()=>{
      <h1>Login Page</h1>
       {isSubmitted?(
         <div>
-           <p> Welcome,{UserName}</p>
+           <p> Welcome, {UserName}</p>
             </div>
       ):(
         <form onSubmit={handleSubmit}>
