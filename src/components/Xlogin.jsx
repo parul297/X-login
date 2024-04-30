@@ -13,7 +13,7 @@ const Xlogin =()=>{
         setError("")
         setIssubmitted(true)
     }else{
-        setIssubmitted(false)
+        // setIssubmitted(false)
         setError("Invalid username or password");
     }
    }
