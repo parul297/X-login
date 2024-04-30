@@ -28,11 +28,11 @@ const Xlogin =()=>{
         <form onSubmit={handleSubmit}>
        {error &&<p>{error}</p>}
        <div>
-        <label htmlFor="username"> Username </label>
+        <label htmlFor="Username">Username:</label>
             <input type="text" id="userName" placeholder="username" onChange={(e)=>setUserName(e.target.value)} required/>
        </div>
        <div>
-        <label htmlFor="password">Password</label>
+        <label htmlFor="Password">Password:</label>
         <input type="password" id="password" placeholder="password" onChange={(e)=>setPassword(e.target.value)} required/>
        </div>
        <div>
